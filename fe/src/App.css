@@ -1,0 +1,44 @@
+.App {
+    background-color: var(--darker);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.themes-wrapper {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--medium);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.theme-selector {
+    color: var(--light);
+    cursor: pointer;
+    border: 1px solid var(--light);
+    padding: 5px 10px 8px 10px;
+    background-color: var(--dark);
+}
+
+.theme-selector:hover {
+    color: var(--lightest);
+    background-color: var(--darker);
+}
+
+.myform {
+    background-color: var(--light);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: var(--darker);
+}
